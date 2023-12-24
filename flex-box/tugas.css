@@ -1,0 +1,36 @@
+.parent1-box {
+    background-color: red;
+    width: 600px;
+    height: 600px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 60px;
+}
+
+.wraper {
+    display: flex;
+    gap: 70px;
+    flex-direction: column;
+}
+
+.child1-box {
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    gap: 5px;
+}
+
+.child2-box {
+    background-color: violet;
+    width: 100px;
+    height: 100px;
+    gap: 5px;
+}
+
+.child2-box:nth-child(2) {
+    background-color: rgb(238, 225, 130);
+    width: 100px;
+    height: 100px;
+    gap: 5px;
+}

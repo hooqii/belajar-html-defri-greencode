@@ -1,0 +1,36 @@
+.parent-box {
+  width: 500px;
+  background-color: bisque;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  gap: 10px;
+  justify-content: center;
+}
+.parent-box::after {
+  content: "Hello World";
+}
+
+.parent-box::before {
+  content: "Hello World";
+}
+
+.child-box {
+  width: 100px;
+  background-color: rgb(238, 255, 0);
+  height: 100px;
+}
+
+.child-box:hover  {
+  width: 50px;
+  background-color: rgb(0, 255, 170);
+  height: 50px;
+}
+
+.child-box:nth-child(odd) {
+  width: 50px;
+  background-color: rgb(255, 81, 0);
+  height: 50px;
+}
+
